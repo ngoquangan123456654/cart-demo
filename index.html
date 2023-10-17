@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Reset Css bằng link normalizer css cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!-- Link font chữ bằng GG Roboto font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Link icon  -->
+  <link rel="stylesheet" href="/assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+  <header class="container navbar header">
+    <h2 class="header-logo">Shopping cart</h2>
+    <div class="header-cart">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+  </header>
+  <div class="contenedor">
+    <div class="product-wrap container navbar">
+      <div class="product-header container">
+        <p class="product-header-title">Sản phẩm</p>
+        <div class="navbar">
+          <p class="product-header-title">Đơn giá</p>
+          <p class="product-header-title">Số lượng</p>
+          <p class="product-header-title">Thành tiền</p>
+          <p class="product-header-title">Thao tác</p>
+        </div>
+      </div>
+      
+      <div class="product-list">
+        <!-- <div class="product-item navbar">
+          <div class="product-info navbar">
+            <img class="product-img" src="https://down-vn.img.susercontent.com/file/eef4736af4732e00934920fba9e6c136" alt="item" >
+            <p class="product-title">Sản phẩm số 1</p>
+          </div>
+          <div class="navbar">
+            <div class="product-price">150.000</div>
+            <div class="product-quantity">
+              <button class="product-quantity-btn">
+                <i class="fa-solid fa-minus"></i>
+              </button>
+              <input type="text" class="product-num" placeholder="3">
+              <button class="product-quantity-btn">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+  
+            <div class="product-total">150.000</div>
+  
+            <button class="product-delete">
+              Xóa 
+            </button>
+          </div>
+  
+        </div> -->
+      </div>
+
+      <div class="product-footer">
+        <p class="product-total-item">Có 3 sản phẩm trong giỏ</p>
+        <p class="product-total-price"></p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
